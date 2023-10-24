@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="imagens/icons8-código-fonte-48.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style form.css">
+</head>
+
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Início</a>
+        <a href="Portfólio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    <div class="bordered-form">
+        <h2>Formulário de Dados Pessoais</h2>
+        <form>
+            <div class="form-input">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-input">
+                <label for="data-nascimento">Data de Nascimento:</label>
+                <input type="date" id="data-nascimento" name="data-nascimento">
+            </div>
+            <div class="form-input">
+                <label for="Sexo">Sexo:</label>
+                  <input type="radio" id="masculino" name="fav_language" value="masculino">
+                  <label for="masculino">Masculino</label><br>
+                  <input type="radio" id="feminino" name="fav_language" value="feminino">
+                  <label for="feminino">Feminino</label><br>
+                  <input type="radio" id="Prefiro Não informar" name="fav_language" value="Prefiro Não informar">
+                  <label for="Prefiro Não informar">Prefiro Não informar</label><br><br>
+                 
+            </div>
+            <div class="form-input">
+                <label for="endereco">Endereço:</label>
+                <br>
+                <label for="">Lograduro</label>
+                <input type="text">
+                <br>
+                <label for="">Bairro</label>
+                <input type="text">
+                <br>
+                <label for="">Cidade</label>
+                <input type="text">
+
+            </div>
+            <div class="form-input">
+                <label for="uf">UF (Unidade da Federação):</label>
+                <select id="uf" name="uf">
+                    <option value="DF">DF</option>
+                    <option value="RJ">RJ</option>
+                    <option value="SP">SP</option>
+                    <option value="MG">MG</option>
+                    <option value="BA">BA</option>
+                    <!-- Adicione mais opções para todos os estados do Brasil -->
+                </select>
+            </div>
+            <div class="form-input">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-input">
+                <input type="submit" value="Enviar">
+               <input type="submit" value="limpar">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

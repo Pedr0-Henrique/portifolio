@@ -1,0 +1,103 @@
+body {
+    background: #bef202;
+  }
+    /* Estilos para a barra de navegação */
+    .navbar {
+      background-color: #040004; /* Cor de fundo da barra de navegação */
+      overflow: hidden;
+      display: flex;
+      justify-content: center; /* Alinhar links horizontalmente */
+  }
+  
+  /* Estilos para os links da barra de navegação */
+  .navbar a {
+      color: white; /* Cor do texto dos links */
+      text-align: center;
+      padding: 14px 16px; /* Espaçamento interno dos links */
+      text-decoration: none; /* Remover sublinhado dos links */
+      margin: 0 10px; /* Espaçamento entre os links */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Estilos para os links quando o mouse passa por cima */
+  .navbar a:hover {
+      background-color: #ddd; /* Cor de fundo ao passar o mouse */
+      color: black; /* Cor do texto ao passar o mouse */
+  }
+  /*conteudo da pagina*/
+.TituloPrincipal{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+   margin: 360px;
+}
+/*objetos*/
+.container-objeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 100px 0 0 0;
+}
+
+.objeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.img-objeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid rgb(232, 232, 232);
+    box-shadow: 4px 4px 30px rgb(114, 114, 114);
+}
+
+.img-objeto:hover {
+    scale: 1.06;
+    transition: 0, 5s;
+}
+
+.container-objeto h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #040004;
+
+}
+/*rodape*/
+.Container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 150px;
+    gap: 10px;
+  }
+  .Container-icone{
+   
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+  }
+  .Container-icone a{
+    color: #040004;
+    text-decoration: none;
+  }
+  .img-footer{
+    width: 40px;
+    height: 40px;
+  
+  }

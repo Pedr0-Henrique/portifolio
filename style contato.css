@@ -1,0 +1,88 @@
+body {
+    background: #bef202;
+  }
+  
+  /* Estilos para a barra de navegação */
+  .navbar {
+    background-color: #040004;
+    /* Cor de fundo da barra de navegação */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* Alinhar links horizontalmente */
+  }
+  
+  /* Estilos para os links da barra de navegação */
+  .navbar a {
+    color: white;
+    /* Cor do texto dos links */
+    text-align: center;
+    padding: 14px 16px;
+    /* Espaçamento interno dos links */
+    text-decoration: none;
+    /* Remover sublinhado dos links */
+    margin: 0 10px;
+    /* Espaçamento entre os links */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Estilos para os links quando o mouse passa por cima */
+  .navbar a:hover {
+    background-color: #ddd;
+    /* Cor de fundo ao passar o mouse */
+    color: black;
+    /* Cor do texto ao passar o mouse */
+  }
+/*rodape*/
+.Container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 150px;
+  
+    gap: 10px;
+  }
+  
+  .Container-icone {
+  
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Container-icone a {
+    color: #040004;
+    text-decoration: none;
+  }
+  
+  .img-footer {
+    width: 40px;
+    height: 40px;
+  
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+  }
+  
+  header .header__left {
+    max-width: 62rem;
+    flex: 1;
+  }
+  
+  header .header__left p {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 50rem;
+  }
+  
+  header .header__left h1 {
+    margin-top: 164px;
+  }  
