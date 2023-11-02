@@ -8,6 +8,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center; /* Alinhar links horizontalmente */
+    border-radius: 40px;
 }
 
 /* Estilos para os links da barra de navegação */
