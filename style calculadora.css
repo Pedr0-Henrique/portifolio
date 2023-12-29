@@ -1,0 +1,192 @@
+body {
+    background: #bef202;
+   
+}
+
+.calculator {
+    text-align: center;
+    
+  
+}
+
+.display {
+    width: 160px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: #ff6666;
+}
+
+.equals {
+    background-color: #66cc66;
+}
+
+.operator {
+    background-color: #99ccff;
+}
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #040004;
+    /* Cor de fundo da barra de navegação */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* Alinhar links horizontalmente */
+    border-radius: 40px;
+}
+
+/* Estilos para os links da barra de navegação */
+.navbar a {
+    color: white;
+    /* Cor do texto dos links */
+    text-align: center;
+    padding: 14px 16px;
+    /* Espaçamento interno dos links */
+    text-decoration: none;
+    /* Remover sublinhado dos links */
+    margin: 0 10px;
+    /* Espaçamento entre os links */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos para os links quando o mouse passa por cima */
+.navbar a:hover {
+    background-color: #ddd;
+    /* Cor de fundo ao passar o mouse */
+    color: black;
+    /* Cor do texto ao passar o mouse */
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container h1:nth-child(1) {
+    color: #040004;
+    font-family: 'Fira Code', monospace;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0 0 0 35%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 170px;
+    animation: type 2s steps(40, end) forwards;
+}
+
+.container h1:nth-child(2) {
+    opacity: 0;
+    font-family: "Work Sans", sans-serif;
+    margin: 0 auto auto auto;
+    background: linear-gradient(to right, #040004);
+    font-weight: 800;
+    font-size: 100px;
+    width: 500px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    animation: shring-animation 2.2s steps(40, end) 2s forwards, blink .5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+    0% {
+        background-position: 0 0;
+        opacity: 0;
+        width: 0;
+    }
+
+    1% {
+        background-position: 0 0;
+        opacity: 1;
+        border-right: 1px solid #101942;
+    }
+
+    50% {
+        background-position: 150px 0;
+        opacity: 1;
+        border-right: 1px solid #101942;
+    }
+
+    100% {
+        background-position: 400px 0;
+        opacity: 1;
+        border-right: 1px solid #101942;
+    }
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+
+    1%,
+    99% {
+        border-right: 1px solid #101942;
+    }
+
+    100% {
+        border-right: none;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/*objetos*/
+.container-objeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 100px 0 0 0;
+}
+
+.objeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.img-objeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid rgb(232, 232, 232);
+    box-shadow: 4px 4px 30px rgb(114, 114, 114);
+}
+
+.img-objeto:hover {
+    scale: 1.06;
+    transition: 0, 5s;
+}
+
+.container-objeto h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
